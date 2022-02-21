@@ -1,0 +1,91 @@
+[debug] [2022-02-21T15:30:53.008Z] ----------------------------------------------------------------------
+[debug] [2022-02-21T15:30:53.009Z] Command:       /usr/local/bin/firebase /Users/gloria/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2022-02-21T15:30:53.010Z] CLI Version:   10.2.0
+[debug] [2022-02-21T15:30:53.010Z] Platform:      darwin
+[debug] [2022-02-21T15:30:53.010Z] Node Version:  v12.18.1
+[debug] [2022-02-21T15:30:53.015Z] Time:          Mon Feb 21 2022 10:30:53 GMT-0500 (Eastern Standard Time)
+[debug] [2022-02-21T15:30:53.016Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-21T15:30:53.074Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-21T15:30:53.074Z] > authorizing via signed-in user (hyojung.gm@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/gloria/Documents/0_2022_Spring/05430 PUI/A4
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-02-21T15:31:38.017Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:75:28)
+    at Interface._setRawMode (readline.js:290:16)
+    at Interface.close (readline.js:413:10)
+    at ReadStream.ontermend (readline.js:201:10)
+    at ReadStream.emit (events.js:327:22)
+    at ReadStream.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2022-02-21T15:32:08.097Z] ----------------------------------------------------------------------
+[debug] [2022-02-21T15:32:08.099Z] Command:       /usr/local/bin/firebase /Users/gloria/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2022-02-21T15:32:08.099Z] CLI Version:   10.2.0
+[debug] [2022-02-21T15:32:08.099Z] Platform:      darwin
+[debug] [2022-02-21T15:32:08.099Z] Node Version:  v12.18.1
+[debug] [2022-02-21T15:32:08.100Z] Time:          Mon Feb 21 2022 10:32:08 GMT-0500 (Eastern Standard Time)
+[debug] [2022-02-21T15:32:08.101Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-21T15:32:08.154Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-21T15:32:08.154Z] > authorizing via signed-in user (hyojung.gm@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/gloria/Documents/0_2022_Spring/05430 PUI/A4
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-02-21T15:32:18.919Z] Using project from CLI flag: pui-lab-spring22
+[debug] [2022-02-21T15:32:18.922Z] > refreshing access token with scopes: []
+[debug] [2022-02-21T15:32:18.923Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-02-21T15:32:19.157Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 21 Feb 2022 15:32:19 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-21T15:32:19.221Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pui-lab-spring22 [none]
+[debug] [2022-02-21T15:32:19.486Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pui-lab-spring22 200
+[debug] [2022-02-21T15:32:19.487Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pui-lab-spring22 {"projectId":"pui-lab-spring22","projectNumber":"550185224476","displayName":"pui-lab-spring22","name":"projects/pui-lab-spring22","resources":{"hostingSite":"pui-lab-spring22"},"state":"ACTIVE"}
+[info] i  Using project pui-lab-spring22 (pui-lab-spring22) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-02-21T15:32:58.910Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:75:28)
+    at Interface._setRawMode (readline.js:290:16)
+    at Interface.close (readline.js:413:10)
+    at ReadStream.ontermend (readline.js:201:10)
+    at ReadStream.emit (events.js:327:22)
+    at ReadStream.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
